@@ -59,16 +59,6 @@ Make sure you have Node.js (v16+) and npm installed on your machine.
 3. **Start the development server:**
    The app will typically be available at \`http://localhost:5173\`.
 
-### Production Build
-To create an optimized production build:
-\`\`\`bash
-npm run build
-\`\`\`
-To preview the production build:
-\`\`\`bash
-npm run preview
-\`\`\`
-
 ---
 
 ## 🤖 AI Mode Configuration
