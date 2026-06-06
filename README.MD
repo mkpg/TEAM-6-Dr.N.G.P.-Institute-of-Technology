@@ -122,7 +122,7 @@ Every domain tool includes:
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js >= 18 / Python >= 3.10
+- Node.js >= 18 / Python >= 3.10 React.js
 - API access to an LLM provider (e.g., Anthropic Claude, OpenAI)
 - Database (PostgreSQL recommended)
 
