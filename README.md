@@ -1,6 +1,6 @@
 # Campus Employability Diagnostic Portal 🚀
 
-Welcome to the **Campus Employability Diagnostic Portal**, an interactive, AI-powered platform designed to assess student aptitude, map them to specialized career archetypes, and provide domain-specific sandbox environments for hands-on learning and AI mentorship.
+Welcome to the **Campus Employability Diagnostic Portal**, an interactive, AI-powered platform designed to assess student aptitude, map them to specialized career archetypes and provide domain-specific sandbox environments for hands-on learning and AI mentorship.
 
 Built exclusively for the **Dr. N.G.P. Institute of Technology**.
 
@@ -11,7 +11,7 @@ Built exclusively for the **Dr. N.G.P. Institute of Technology**.
 ### 1. Employability Diagnostic Assessment (Module 1)
 A comprehensive 50-question diagnostic test evaluating skills across various domains:
 - UI/UX Design
-- Web Development (MERN Stack)
+- Web Development
 - AI & Machine Learning
 - Data Analytics
 - Cyber Security
@@ -37,10 +37,9 @@ Integrated with the **Google Gemini API**, the platform features specialized AI 
 
 ## 🛠️ Technology Stack
 
-- **Frontend Framework:** React 18 with TypeScript
+- **Frontend Framework:** HTML, CSS, JS
 - **Build Tool:** Vite
 - **Styling:** Custom CSS with a bright, modern "Glassmorphism" UI and responsive design
-- **Icons:** Lucide React
 - **AI Integration:** Google Gemini API (via `@google/generative-ai` or REST endpoints)
 
 ---
