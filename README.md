@@ -6,7 +6,7 @@ An AI-powered platform that helps students discover, explore, and build skills i
 
 ## 📌 Overview
 
-**Employability Engine** bridges the gap between a student's potential and their professional future. Using behavioral analysis and domain-specific AI tools, students receive a personalized career direction report and hands-on learning experiences embedded with AI assistants — preparing them for both the domain and the AI-native workplace.
+**Employability Engine** bridges the gap between a student's potential and their professional future. Using interest maping technique and domain-specific AI tools, students receive a personalized career direction report and hands-on learning experiences embedded with AI assistants — preparing them for both the domain and the AI-native workplace.
 
 ---
 
