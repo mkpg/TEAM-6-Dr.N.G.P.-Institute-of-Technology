@@ -1,4 +1,4 @@
-# 🎓 AI Career Compass — Personalized Career Guidance Platform
+# 🎓 Employability Engine
 
 An AI-powered platform that helps students discover, explore, and build skills in career domains aligned with their aptitude, personality, and interests — while simultaneously developing AI fluency.
 
