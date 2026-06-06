@@ -25,11 +25,11 @@ Personalized Career Direction Report
         │
         ▼
 Domain Tool Selection
-┌──────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
-│ Costume Design│ Programming  │ Architecture │  Business    │   + More    │
-│ AI Styling    │ AI Code      │ AI Design    │ AI Strategy  │ Expandable  │
-│ Agent         │ Tutor        │ Tool         │ Tool         │ Services    │
-└──────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
+┌───────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
+│ Costume Design│ Programming  │ Architecture │  Business    │   + More     │
+│ AI Styling    │ AI Code      │ AI Design    │ AI Strategy  │ Expandable   │
+│ Agent         │ Tutor        │ Tool         │ Tool         │ Services     │
+└───────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
         │
         ▼
 Inside each tool — AI embedded throughout
@@ -48,7 +48,7 @@ Inside each tool — AI embedded throughout
         ├────────────────────────────────────────────────┬
         ▼                                                ▼
   Student Gets                                      College Gets
-Portfolio · Certifications · AI Fluency    Employability Data · Placement Tracking
+  AI Exposure                         Employability Data · Placement Tracking
 ```
 
 ---
