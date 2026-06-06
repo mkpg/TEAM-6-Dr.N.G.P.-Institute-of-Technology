@@ -160,18 +160,6 @@ PORT=3000
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue first to discuss any changes. PRs should target the `dev` branch.
-
----
-
-## 📄 License
-
-MIT License. See `LICENSE` for details.
-
----
-
 ## 👤 Author
 
 Built by team 6
