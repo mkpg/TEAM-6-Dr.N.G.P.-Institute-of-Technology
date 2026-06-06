@@ -1,173 +1,95 @@
-# 🎓 Emloyability Engine
+# Campus Employability Diagnostic Portal 🚀
 
-An AI-powered platform that helps students discover, explore, and build skills in career domains aligned with their aptitude, personality, and interests — while simultaneously developing AI fluency.
+Welcome to the **Campus Employability Diagnostic Portal**, an interactive, AI-powered platform designed to assess student aptitude, map them to specialized career archetypes, and provide domain-specific sandbox environments for hands-on learning and AI mentorship.
 
----
-
-## 📌 Overview
-
-**Employability Engine** bridges the gap between a student's potential and their professional future. Using interest maping technique and domain-specific AI tools, students receive a personalized career direction report and hands-on learning experiences embedded with AI assistants — preparing them for both the domain and the AI-native workplace.
+Built exclusively for the **Dr. N.G.P. Institute of Technology**.
 
 ---
 
-## 🏗️ Architecture
+## 🌟 Key Features
 
-```
-Student enters the platform
-        │
-        ▼
-Behavioral Analysis Engine
-(Aptitude + Personality + Interest Mapping → Career Archetypes Report)
-        │
-        ▼
-Personalized Career Direction Report
-(e.g., Costume Designer · Programmer · UX Designer)
-        │
-        ▼
-Domain Tool Selection
-┌───────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
-│ Costume Design│ Programming  │ Architecture │  Business    │   + More     │
-│ AI Styling    │ AI Code      │ AI Design    │ AI Strategy  │ Expandable   │
-│ Agent         │ Tutor        │ Tool         │ Tool         │ Services     │
-└───────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
-        │
-        ▼
-Inside each tool — AI embedded throughout
-┌─────────────────────────────────────────────────────────────────┐
-│            Costume Design Tool (Example Domain)                 │
-│  ┌──────────────┐ ┌───────────────┐ ┌─────────────┐ ┌────────┐  │
-│  │ AI Mood Board│ │ AI Fabric     │ │ AI Portfolio│ │Industry│  │
-│  │ Generate     │ │ Advisor       │ │ Bot         │ │ Mentor │  │
-│  │ ideas from   │ │ Suggest       │ │ Critique &  │ │Live AI │  │
-│  │ text prompts │ │ materials by  │ │ grade       │ │chat on │  │
-│  │              │ │ season/budget │ │ readiness   │ │ roles  │  │
-│  └──────────────┘ └───────────────┘ └─────────────┘ └────────┘  │
-│  Student learns the domain AND learns to work with AI tools     │
-└─────────────────────────────────────────────────────────────────┘
-        │
-        ├────────────────────────────────────────┬
-        ▼                                        ▼
-    Student Gets                            College Gets
-Certifications · AI Fluency    Employability Data · Placement Tracking
-```
+### 1. Employability Diagnostic Assessment (Module 1)
+A comprehensive 50-question diagnostic test evaluating skills across various domains:
+- UI/UX Design
+- Web Development (MERN Stack)
+- AI & Machine Learning
+- Data Analytics
+- Cyber Security
+
+Based on the results, students are mapped to one of five specialized **Career Archetypes** (e.g., The UI/UX Architect, The Full-Stack Developer, etc.) and provided with a tailored growth roadmap.
+
+### 2. Domain-Specific Sandboxes (Modules 2 - 4)
+Interactive playgrounds tailored to the student's mapped archetype:
+- **Tech Sandbox:** A coding environment with live HTML/CSS/JS preview, automated code evaluation, and algorithmic quizzes.
+- **Architecture Sandbox:** An interactive blueprint canvas for structural layout planning and load-bearing visualization.
+- **Business Sandbox:** A dynamic finance simulator to model pricing elasticity, CAC/LTV margins, and startup unit economics.
+
+### 3. Context-Aware AI Mentorship
+Integrated with the **Google Gemini API**, the platform features specialized AI personas (e.g., Sarah Connor for Tech, David Wright for Architecture, Elena Vance for Business).
+- **Prompt Engineering Focus:** The AI agents are instructed to teach students how to effectively use AI within their specific domain, providing hands-on advice on prompt structuring and AI implementation.
+- **Live/Mock Toggle:** Supports both live Gemini API responses and a local mock fallback mode for offline/rate-limited scenarios.
+
+### 4. Certifications & Analytics Hub (Module 5)
+- **Student Dashboard:** View skill breakdowns, review assessment answers, and generate downloadable/printable certificates of completion with embedded SVG QR codes.
+- **Admin Gateway:** A centralized view for instructors to monitor student progress and platform metrics.
 
 ---
 
-## 🔑 Key Features
+## 🛠️ Technology Stack
 
-### 1. Behavioral Analysis Engine
-- Combines aptitude tests, personality assessments, and interest mapping
-- Generates a **Career Archetypes Report** unique to each student
-- Maps students to career domains they are most suited for
-
-### 2. Personalized Career Direction Report
-- Provides 2–3 tailored career suggestions (e.g., Costume Designer, Programmer, UX Designer)
-- Acts as the entry point into the domain-specific learning journey
-
-### 3. Domain-Specific AI Tools
-Each career domain has a dedicated AI-powered learning environment:
-
-| Domain | AI Tool | Core Capability |
-|---|---|---|
-| Costume Design | AI Styling Agent | Mood boards, fabric advice, portfolio review |
-| Programming | AI Code Tutor | Code walkthroughs, debugging, project guidance |
-| Architecture | AI Design Tool | Design critiques, drafting assistance |
-| Business | AI Strategy Tool | Case studies, strategy frameworks |
-| + More | Expandable Services | Additional domains added over time |
-
-### 4. AI Embedding Throughout Each Tool
-Every domain tool includes:
-- **AI Mood Board / Idea Generator** — Generate creative concepts from text prompts
-- **AI Domain Advisor** — Context-aware suggestions (e.g., materials by season/budget)
-- **AI Portfolio Bot** — Critique student work and assess readiness
-- **Industry Mentor** — Live AI chat simulating real-world professional conversations
-
-### 5. Dual-Outcome Learning
-> *"Student learns the domain AND learns to work with AI tools — both skills in one session"*
-
----
-
-## 📦 Outputs
-
-### For Students
-- **Portfolio** — A curated body of work across their chosen domain
-- **Certifications** — Verifiable credentials upon completing domain milestones
-- **AI Fluency** — Demonstrated ability to work with AI tools in professional contexts
-
-### For Colleges / Institutions
-- **Employability Data** — Aggregated metrics on student readiness
-- **Placement Tracking** — Monitor outcomes and career alignment over time
-
----
-
-## 🧩 System Components
-
-```
-/platform
-├── /onboarding           # Interest surveys, aptitude tests, personality assessments
-├── /analysis-engine      # Behavioral scoring and archetype mapping logic
-├── /career-report        # Report generation and career recommendation service
-├── /domain-tools
-│   ├── /costume-design   # AI Styling Agent, Mood Board, Fabric Advisor, Portfolio Bot
-│   ├── /programming      # AI Code Tutor, project tracker
-│   ├── /architecture     # AI Design Tool
-│   ├── /business         # AI Strategy Tool
-│   └── /[expandable]     # Plugin architecture for new domains
-├── /ai-mentor            # Shared Industry Mentor AI chat service
-├── /portfolio-engine     # Student portfolio builder and grading
-├── /certifications       # Milestone tracking and credential issuance
-└── /analytics            # College-facing dashboard (employability + placement data)
-```
+- **Frontend Framework:** React 18 with TypeScript
+- **Build Tool:** Vite
+- **Styling:** Custom CSS with a bright, modern "Glassmorphism" UI and responsive design
+- **Icons:** Lucide React
+- **AI Integration:** Google Gemini API (via `@google/generative-ai` or REST endpoints)
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js >= 18 / Python >= 3.10 / React.js
-- API access to an LLM provider (e.g., Anthropic Claude, OpenAI)
-- Database (PostgreSQL recommended)
+Make sure you have Node.js (v16+) and npm installed on your machine.
 
 ### Installation
 
-```bash
-git clone https://github.com/your-org/ai-career-compass.git
-cd ai-career-compass
-npm install        # or pip install -r requirements.txt
-cp .env.example .env
-# Fill in your API keys and DB credentials in .env
-npm run dev
-```
+1. **Clone the repository (or navigate to the directory):**
+   \`\`\`bash
+   cd TEAM-6-Dr.N.G.P.-Institute-of-Technology
+   \`\`\`
 
-### Environment Variables
+2. **Install dependencies:**
+   \`\`\`bash
+   npm install
+   \`\`\`
 
-```env
-LLM_API_KEY=your_api_key_here
-DATABASE_URL=postgresql://user:password@localhost:5432/career_compass
-DOMAIN_TOOLS_ENABLED=costume_design,programming,architecture,business
-PORT=3000
-```
+3. **Start the development server:**
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+   The app will typically be available at \`http://localhost:5173\`.
 
----
-
-## 🛣️ Roadmap
-
-- [ ] Launch with 4 core domain tools (Costume Design, Programming, Architecture, Business)
-- [ ] Build behavioral analysis engine with validated psychometric models
-- [ ] Implement AI Portfolio Bot with rubric-based grading
-- [ ] College dashboard with real-time placement analytics
-- [ ] Expand to 10+ domain tools
-- [ ] Mobile app for on-the-go learning sessions
-- [ ] Peer collaboration features within domain tools
+### Production Build
+To create an optimized production build:
+\`\`\`bash
+npm run build
+\`\`\`
+To preview the production build:
+\`\`\`bash
+npm run preview
+\`\`\`
 
 ---
 
-## 📄 License
+## 🤖 AI Mode Configuration
 
-MIT License. See `LICENSE` for details.
+The application features an AI toggle in the top navigation bar:
+- **Mock Mode:** Returns local, pre-configured responses tailored to the active AI persona. Useful for testing and development.
+- **Live Mode:** Connects to the Google Gemini API for dynamic, context-aware mentorship. 
+
+*(Note: Ensure your Gemini API key is configured properly in \`src/services/geminiService.ts\` or via environment variables for Live Mode to function optimally).*
 
 ---
 
-## 👤 Author
+## 🎓 About
 
-Built with the vision of making every student career-ready and AI-fluent — before they even graduate.
+This project was developed by **Team 6** to revolutionize campus skill assessment and career readiness. By combining rigorous diagnostic testing with AI-guided sandbox learning, we aim to bridge the gap between academic knowledge and industry-ready skills.
