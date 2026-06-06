@@ -176,4 +176,4 @@ MIT License. See `LICENSE` for details.
 
 ## 👤 Author
 
-Built with the vision of making every student career-ready and AI-fluent — before they even graduate.
+Built by team 6
