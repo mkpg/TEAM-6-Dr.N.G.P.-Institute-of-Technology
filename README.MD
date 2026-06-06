@@ -26,29 +26,29 @@ Personalized Career Direction Report
         ▼
 Domain Tool Selection
 ┌──────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
-│ Costume Design│ Programming  │ Architecture │  Business    │   + More     │
-│ AI Styling    │ AI Code      │ AI Design    │ AI Strategy  │ Expandable   │
-│ Agent         │ Tutor        │ Tool         │ Tool         │ Services     │
+│ Costume Design│ Programming  │ Architecture │  Business    │   + More    │
+│ AI Styling    │ AI Code      │ AI Design    │ AI Strategy  │ Expandable  │
+│ Agent         │ Tutor        │ Tool         │ Tool         │ Services    │
 └──────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
         │
         ▼
 Inside each tool — AI embedded throughout
 ┌─────────────────────────────────────────────────────────────────┐
-│            Costume Design Tool (Example Domain)                  │
-│  ┌──────────────┐ ┌───────────────┐ ┌─────────────┐ ┌────────┐ │
-│  │ AI Mood Board│ │ AI Fabric     │ │ AI Portfolio│ │Industry│ │
-│  │ Generate     │ │ Advisor       │ │ Bot         │ │ Mentor │ │
-│  │ ideas from   │ │ Suggest       │ │ Critique &  │ │Live AI │ │
-│  │ text prompts │ │ materials by  │ │ grade       │ │chat on │ │
-│  │              │ │ season/budget │ │ readiness   │ │ roles  │ │
-│  └──────────────┘ └───────────────┘ └─────────────┘ └────────┘ │
-│  Student learns the domain AND learns to work with AI tools      │
+│            Costume Design Tool (Example Domain)                 │
+│  ┌──────────────┐ ┌───────────────┐ ┌─────────────┐ ┌────────┐  │
+│  │ AI Mood Board│ │ AI Fabric     │ │ AI Portfolio│ │Industry│  │
+│  │ Generate     │ │ Advisor       │ │ Bot         │ │ Mentor │  │
+│  │ ideas from   │ │ Suggest       │ │ Critique &  │ │Live AI │  │
+│  │ text prompts │ │ materials by  │ │ grade       │ │chat on │  │
+│  │              │ │ season/budget │ │ readiness   │ │ roles  │  │
+│  └──────────────┘ └───────────────┘ └─────────────┘ └────────┘  │
+│  Student learns the domain AND learns to work with AI tools     │
 └─────────────────────────────────────────────────────────────────┘
         │
-        ├──────────────────────┬──────────────────────┐
-        ▼                      ▼
-  Student Gets              College Gets
-  Portfolio · Certifications · AI Fluency    Employability Data · Placement Tracking
+        ├────────────────────────────────────────────────┬
+        ▼                                                ▼
+  Student Gets                                      College Gets
+Portfolio · Certifications · AI Fluency    Employability Data · Placement Tracking
 ```
 
 ---
