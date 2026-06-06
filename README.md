@@ -1,4 +1,4 @@
-# 🎓 AI Career Compass — Personalized Career Guidance Platform
+# 🎓 Emloyability Engine
 
 An AI-powered platform that helps students discover, explore, and build skills in career domains aligned with their aptitude, personality, and interests — while simultaneously developing AI fluency.
 
@@ -6,7 +6,7 @@ An AI-powered platform that helps students discover, explore, and build skills i
 
 ## 📌 Overview
 
-**AI Career Compass** bridges the gap between a student's potential and their professional future. Using behavioral analysis and domain-specific AI tools, students receive a personalized career direction report and hands-on learning experiences embedded with AI assistants — preparing them for both the domain and the AI-native workplace.
+**Employability Engine** bridges the gap between a student's potential and their professional future. Using behavioral analysis and domain-specific AI tools, students receive a personalized career direction report and hands-on learning experiences embedded with AI assistants — preparing them for both the domain and the AI-native workplace.
 
 ---
 
@@ -25,30 +25,30 @@ Personalized Career Direction Report
         │
         ▼
 Domain Tool Selection
-┌──────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
+┌───────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
 │ Costume Design│ Programming  │ Architecture │  Business    │   + More     │
 │ AI Styling    │ AI Code      │ AI Design    │ AI Strategy  │ Expandable   │
 │ Agent         │ Tutor        │ Tool         │ Tool         │ Services     │
-└──────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
+└───────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
         │
         ▼
 Inside each tool — AI embedded throughout
 ┌─────────────────────────────────────────────────────────────────┐
-│            Costume Design Tool (Example Domain)                  │
-│  ┌──────────────┐ ┌───────────────┐ ┌─────────────┐ ┌────────┐ │
-│  │ AI Mood Board│ │ AI Fabric     │ │ AI Portfolio│ │Industry│ │
-│  │ Generate     │ │ Advisor       │ │ Bot         │ │ Mentor │ │
-│  │ ideas from   │ │ Suggest       │ │ Critique &  │ │Live AI │ │
-│  │ text prompts │ │ materials by  │ │ grade       │ │chat on │ │
-│  │              │ │ season/budget │ │ readiness   │ │ roles  │ │
-│  └──────────────┘ └───────────────┘ └─────────────┘ └────────┘ │
-│  Student learns the domain AND learns to work with AI tools      │
+│            Costume Design Tool (Example Domain)                 │
+│  ┌──────────────┐ ┌───────────────┐ ┌─────────────┐ ┌────────┐  │
+│  │ AI Mood Board│ │ AI Fabric     │ │ AI Portfolio│ │Industry│  │
+│  │ Generate     │ │ Advisor       │ │ Bot         │ │ Mentor │  │
+│  │ ideas from   │ │ Suggest       │ │ Critique &  │ │Live AI │  │
+│  │ text prompts │ │ materials by  │ │ grade       │ │chat on │  │
+│  │              │ │ season/budget │ │ readiness   │ │ roles  │  │
+│  └──────────────┘ └───────────────┘ └─────────────┘ └────────┘  │
+│  Student learns the domain AND learns to work with AI tools     │
 └─────────────────────────────────────────────────────────────────┘
         │
-        ├──────────────────────┬──────────────────────┐
-        ▼                      ▼
-  Student Gets              College Gets
-  Portfolio · Certifications · AI Fluency    Employability Data · Placement Tracking
+        ├────────────────────────────────────────┬
+        ▼                                        ▼
+    Student Gets                            College Gets
+Certifications · AI Fluency    Employability Data · Placement Tracking
 ```
 
 ---
@@ -124,7 +124,7 @@ Every domain tool includes:
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js >= 18 / Python >= 3.10
+- Node.js >= 18 / Python >= 3.10 / React.js
 - API access to an LLM provider (e.g., Anthropic Claude, OpenAI)
 - Database (PostgreSQL recommended)
 
@@ -159,12 +159,6 @@ PORT=3000
 - [ ] Expand to 10+ domain tools
 - [ ] Mobile app for on-the-go learning sessions
 - [ ] Peer collaboration features within domain tools
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue first to discuss any changes. PRs should target the `dev` branch.
 
 ---
 
