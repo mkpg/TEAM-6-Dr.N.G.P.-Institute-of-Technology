@@ -46,9 +46,6 @@ Integrated with the **Google Gemini API**, the platform features specialized AI 
 
 ## 🚀 Getting Started
 
-### Prerequisites
-Make sure you have Node.js (v16+) and npm installed on your machine.
-
 ### Installation
 
 1. **Clone the repository (or navigate to the directory):**
