@@ -56,15 +56,7 @@ Make sure you have Node.js (v16+) and npm installed on your machine.
    cd TEAM-6-Dr.N.G.P.-Institute-of-Technology
    \`\`\`
 
-2. **Install dependencies:**
-   \`\`\`bash
-   npm install
-   \`\`\`
-
 3. **Start the development server:**
-   \`\`\`bash
-   npm run dev
-   \`\`\`
    The app will typically be available at \`http://localhost:5173\`.
 
 ### Production Build
