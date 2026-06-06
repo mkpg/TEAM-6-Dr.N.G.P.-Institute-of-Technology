@@ -90,8 +90,6 @@ Every domain tool includes:
 ## 📦 Outputs
 
 ### For Students
-- **Portfolio** — A curated body of work across their chosen domain
-- **Certifications** — Verifiable credentials upon completing domain milestones
 - **AI Fluency** — Demonstrated ability to work with AI tools in professional contexts
 
 ### For Colleges / Institutions
